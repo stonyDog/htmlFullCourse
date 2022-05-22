@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTMLまとめ</title>
+    </head>
+    <body>
+        <h1>HTMLまとめ</h1>
+        
+        <h2>文章型の定義</h2>
+        <p>
+            htmlファイルであることを示すために、まず初めに文章型の定義を行う。
+            文章型の定義は、
+        </p>
+        <pre>&lt;!DOCTYPE html&gt;</pre>
+        <p>
+            で行う。
+        </p>
+        
+        <h2>htmlタグ</h2>
+        <p>
+            HTML文書であることを指定するタグ
+        </p>
+        <pre>&lt;html&gt;<br>&lt;/html&gt;</pre>
+        <p>
+            子要素:headタグ、bodyタグ
+        </p>
+        
+        <hr>
+        
+        <h3>headタグ</h3>
+        <p>
+            文書のヘッダ部分を指定するタグ
+        </p>
+        <pre>&lt;head&gt;<br>&lt;/head&gt;</pre>
+        <p>
+            子要素:titleタグ、metaタグ、linkタグ
+        </p>
+        
+        <h4>titleタグ</h4>
+        <p>
+            文書にタイトルをつけるタグ
+        </p>
+        <pre>&lt;title&gt;<br>&lt;/title&gt;</pre>
+        
+        <h4>metaタグ</h4>
+        <p>
+            文書のメタ情報を指定し、ブラウザや検索ロボットにホームページの情報を知らせるためのタグ
+        </p>
+        <pre>&lt;meta&gt;<br>&lt;/meta&gt;</pre>
+        
+        <h4>linkタグ</h4>
+        <p>
+            関連する文書ファイルを指定してその関係を定義するタグ
+        </p>
+        <pre>&lt;link&gt;<br>&lt;/link&gt;</pre>
+        
+        <hr>
+        
+        <h3>bodyタグ</h3>
+        <p>
+            文章や画像など、実際にブラウザの画面上に表示される内容を指定するタグ
+        </p>
+        <p>
+            子要素:h1~h6タグ、pタグ、brタグ、hrタグ
+        </p>
+
+        <h4>h1~h6タグ</h4>
+        <p>
+            見出しを意味するタグ、見出しの大きさに合わせてh1タグからh6タグまで設定できる。
+        </p>
+        <pre>&lt;h1&gt;<br>&lt;/h1&gt;</pre>
+
+        
+        <h4>pタグ</h4>
+        <p>
+            段落を指定するためのタグ、囲まれたテキストは1つの段落であることを示す。
+        </p>
+        <pre>&lt;p&gt;<br>&lt;/p&gt;</pre>
+        
+        
+
+        <h4>brタグ</h4>
+        <p>
+            改行を行うためのタグ、終了タグなしで使う。
+        </p>
+        <pre>&lt;br&gt;</pre>
+
+        <h4>hrタグ</h4>
+        <p>
+            水平の横線を引くためのタグ、終了タグなしで使う。
+        </p>
+        <pre>&lt;hr&gt;</pre>
+
+
+        <hr>
+        
+        <h5>bタグ</h5>
+        <p>
+            <b>太文字</b>
+        </p>
+        
+        <h5>iタグ</h5>
+        <p>
+            <i>italic(ななめ)</i>
+        </p>
+        
+        <h5>bigタグ</h5>
+        <p>
+            <big>大きく</big>
+        </p>
+
+        <h5>smallタグ</h5>
+        <p>
+            <small>小さく</small>
+        </p>
+        
+        <h5>subタグ</h5>
+        <p>
+            下付き文字<sub>下付き文字</sub>
+        </p>
+        
+        <h5>supタグ</h5>
+        <p>
+            上付き文字<sup>上付き文字</sup>
+        </p>
+        
+        <h5>コメントタグ</h5>
+        <pre>&lt;!-- ここにコメント --&gt;</pre>
+        
+        <h5>リンクタグ1</h5>
+        <a href="link.html"><h5>サイトへ移動します。</h5></a>
+        <pre>&lt;a href=&quot;ここにURL&quot;&gt;サイトへ移動します。&lt;/a&gt;</pre>
+        
+        <h5>リンクタグ2</h5>
+        <a href="link.html" target="_blank"><h5>別タブを開き、サイトへ移動します。</h5></a>
+        <pre>&lt;a href=&quot;link.html&quot; target=&quot;_blank&quot;&gt;別タブを開き、サイトへ移動します。&lt;/a&gt;</pre>
+
+        <h5>imgタグ</h5>
+        <img width="100" src="tama.png" alt="tama">
+        <pre>&lt;img width=&quot;100&quot; src=&quot;tama.png&quot; alt=&quot;tama&quot;&gt;</pre>
+
+        
+        <h5>unorder list</h5>
+        <ul type="disc">
+            <li>サンプルテキスト1</li>
+            <li>サンプルテキスト2</li>
+        </ul>
+        <pre>&lt;ul type=&quot;disc&quot;&gt;<br>    &lt;li&gt;サンプルテキスト1&lt;/li&gt;<br>    &lt;li&gt;サンプルテキスト2&lt;/li&gt;<br>&lt;/ul&gt;</pre>
+
+        <h5>order list</h5>
+        <ol type="1">
+            <li>サンプルテキスト1</li>
+            <li>サンプルテキスト2</li>
+        </ol>
+        <pre>&lt;ol type=&quot;1&quot;&gt;<br>    &lt;li&gt;サンプルテキスト1&lt;/li&gt;<br>    &lt;li&gt;サンプルテキスト2&lt;/li&gt;<br>&lt;/ol&gt;</pre>
+
+
+
+    </body>
+</html>
